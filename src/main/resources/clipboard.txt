@@ -1,0 +1,11 @@
+package aabramov.intellij;
+
+
+/**
+* I added some documentation
+*/
+public class Playground {
+    public static void main(String[] args){
+        // I have made some changes here
+    }
+}
