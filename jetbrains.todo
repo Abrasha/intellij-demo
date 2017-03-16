@@ -1,0 +1,75 @@
+Pre-conditions:
+ ✔ install presentation hotkeys plugin - https://plugins.jetbrains.com/plugin/7345 @done (17-03-16 20:53)
+ ✔ install key promoter - https://plugins.jetbrains.com/plugin/1003 @done (17-03-16 20:53)
+Completion:
+   ☐ camelCase                                     |
+   ☐ variable name                                 |
+   ☐ smart action - Ctrl + Enter                   |
+   ☐ getter / setter                               |
+   ☐ introduce local variables                     |
+   ☐ smart completion - Ctrl Shift space           |
+   ☐ live templates (Ctrl + J)                     |
+     ☐ sout[vmp]                                   |
+     ☐ prsfi                                       |
+     ☐ current class - generate logger             |
+   ☐ postfix completion (Ctrl + J)                 |
+   ☐ static functions (ClassName.function)         |
+   ☐ paste java code into project view             |
+   ☐ enums without enum class (Smart completion)   |
+Navigation:
+  ☐ current scope        Ctrl + E - current scope
+  ☐ current edited scope Ctrl Shift + E
+  ☐ Class                Ctrl + N - 
+  ☐ File                 Ctrl + Shift + N
+  ☐ Go to line (ClassWithTooManyMethods:16)
+  ☐ Go to method (ClassWithTooManyMethods#mouse) 
+  ☐ local history of files (Very useful)
+  ☐ expand selection
+Search:
+  ☐ find
+  ☐ find in path
+  ☐ code pattern (advanced)
+Generate code:
+   ☐ constructor (Ctrl + G) 
+   ☐ duplicate selection / line (Ctrl + D)
+   ☐ toString / hashCode / equals
+   ☐ getter / setter (java ceremony ♕)
+   ☐ encapsulate variables
+     ☐ or just ue lombok
+   ☐ implement interface
+   ☐ create subclass
+   ☐ override, implement (override Ctrl + O or start typing method name)
+Language injection:
+  ☐ test regex
+  ☐ inject json
+  ☐ edit fragment
+Refactoring:
+  ☐ rename (variable, method, class, file)
+  ☐ type migration (should be careful)
+  ☐ extract variable
+  ☐ extract method
+  ☐ extract to interface (pull members up)
+  ☐ Replace Constructor With Factory Method - https://goo.gl/yZLJUj
+  ☐ Encapsulate Fields - https://goo.gl/UApuvE
+Debugging:
+  ☐ Conditional breakpoint
+  ☐ Evaluate expression
+  ☐ Analyze stacktrace
+  ☐ Breakpoint only once
+  ☐ Smart step into Shift + f7
+  ☐ Implicit breakpoints Ctrl + Shift + f8
+    ☐ Log message without suspend
+  ☐ Field breakpoint
+  ☐ difference between clipboard || files (Compare with clipboard)
+Utils:
+  ☐ Productivity guide
+
+
+  -----------------
+  ☐ GrepConsole
+  ☐ scratch file
+  ☐ databases - Generate UML & ERD
+ ☐ Bash utils:
+   ☐ grep files
+   ☐ find -name -type
+   ☐ find -name $1 | xargs subl
