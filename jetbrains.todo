@@ -4,73 +4,76 @@ Advice #46 Know your IDE
       abramov.andrii@gmail.com
 ----------
 Pre-conditions:
- ✔ presentation hotkeys plugin - https://plugins.jetbrains.com/plugin/7345 @done (17-03-16 20:53)
- ✔ key promoter - https://plugins.jetbrains.com/plugin/1003 @done (17-03-16 20:53)
+ ☐ presentation hotkeys plugin - https://plugins.jetbrains.com/plugin/7345
+ ☐ key promoter                - https://plugins.jetbrains.com/plugin/1003
+----------
 Completion:
-   ☐ camel case                                    |
-   ☐ variable name                                 |
-   ☐ smart action - Ctrl + Enter                   |
-   ☐ getter / setter                               |
-   ☐ introduce local variables                     |
-   ☐ smart completion - Ctrl Shift space           |
-   ☐ live templates (Ctrl + J)                     |
-     ☐ sout[vmp]                                   |
-     ☐ prsfi                                       |
-     ☐ current class - generate logger             |
-   ☐ postfix completion (Ctrl + J)                 |
-   ☐ static functions (ClassName.function)         |
-   ☐ paste java code into project view             |
-   ☐ enums without enum class (Smart completion)   |
-Navigation:
-  ☐ current scope        Ctrl + E - current scope
-  ☐ current edited scope Ctrl + Shift + E
-  ☐ class                Ctrl + N - 
-  ☐ file                 Ctrl + Shift + N
-  ☐ go to:
-    ☐ line (ClassWithTooManyMethods:16)
-    ☐ method (ClassWithTooManyMethods#mouse) 
-  ☐ local history of files
-  ☐ expand selection
-  ☐ duplicate selection / line (Ctrl + D)  
-Search:
-  ☐ find
-  ☐ find in path
-  ☐ code pattern (advanced)
-Generate code:
-  ☐ constructor (Ctrl + G) 
-  ☐ [toString hashCode equals]
-  ☐ [getter setter] (java ♕ceremony♕)
-  ☐ encapsulate variables
-    ☐ lombok?
-  ☐ implement interface
-  ☐ create subclass
-  ☐ [override, implement] (Ctrl + O or method name)
-Language injection:
-  ☐ test regex
-  ☐ inject 
-    ☐ json
-    ☐ xml
-  ☐ edit fragment
-Refactoring:
-  ☐ rename [variable, method, class, file]
-  ☐ type migration
-  ☐ extract 
-    ☐ variable
-    ☐ method
-  ☐ extract to interface (pull members up)
-  ☐ replace Constructor With Factory Method
-Debugging:
-  ☐ conditional breakpoint
-  ☐ evaluate expression
-    ☐ Java
-    ☐ Groovy
-  ☐ breakpoint only once
-  ☐ smart step into      Shift + f7
-  ☐ implicit breakpoints Ctrl + Shift + f8
-    ☐ log message without suspend
-  ☐ field breakpoint
-  ☐ analyze stacktrace
-  ☐ compare with clipboard
+   ☐ camel case                               | Playground          |
+   ☐ variable name                            |                     |
+   ☐ smart action                             |                     | Ctrl + Enter
+   ☐ getter / setter                          | GetterSetter        |
+   ☐ introduce local variables                | Playground          |
+   ☐ smart completion                         | SmartCompletion     | Ctrl + Shift + Space
+   ☐ live templates                           |                     | Ctrl + J
+     ☐ sout[vmp]                              |                     |
+     ☐ prsfi                                  |                     |
+     ☐ current class - generate logger        |                     |
+   ☐ postfix completion                       |                     | Ctrl + J
+   ☐ static functions (ClassName.function)    | stackoverflow.com   |
+   ☐ paste java code into project view        | pasting             |
+   ☐ enums namespace (Smart completion)       | GenderPrinter       |
+Navigation:                                   |                     |
+  ☐ current scope                             |                     | Ctrl + E
+  ☐ current edited scope                      |                     | Ctrl + Shift + E
+  ☐ class                                     |                     | Ctrl + N
+  ☐ file                                      |                     | Ctrl + Shift + N
+  ☐ go to:                                    |                     |
+    ☐ line                                    |                     | ClaWiTooM:16
+    ☐ method                                  |                     | ClaWiTooM#mouse
+  ☐ local history of files                    |                     |
+  ☐ expand selection                          | selection.xml       |
+  ☐ duplicate [ selection  line ]             |                     | Ctrl + D
+Search:                                       |                     |
+  ☐ find                                      |                     | Ctrl + F
+  ☐ find in path                              |                     | Ctrl + Shift + F
+  ☐ code pattern                              |                     |
+    ☐ empty catch                             | EmptyCatchBlocks    |
+    ☐ printStackTrace                         | StackTraceCatchBlock|
+Generate code:                                |                     |
+  ☐ constructor                               | Person              | Ctrl + G
+  ☐ [toString hashCode equals]                |                     |
+  ☐ [getter setter] (java ♕ceremony♕)         |                     |
+  ☐ encapsulate variables                     | PersonEncapsulate   |
+    ☐ lombok?                                 |                     |
+  ☐ implement interface                       | ImplementMe         |
+  ☐ create subclass                           | Parent              |
+  ☐ [override, implement]                     | ParentImpl          |
+Language injection:                           |                     |
+  ☐ test regex                                | RegexExample        |
+  ☐ inject                                    |                     |
+    ☐ json                                    | JsonInjection       |
+    ☐ xml                                     | XmlInjection        |
+  ☐ edit fragment                             |                     |
+Refactoring:                                  |                     |
+  ☐ rename [variable, method, class, file]    |                     | Shift + F6
+  ☐ type migration                            | TypeMigration       |
+  ☐ extract                                   |                     |
+    ☐ variable                                |                     |
+    ☐ method                                  |                     |
+  ☐ extract to interface (pull members up)    | ParentImpl          |
+  ☐ replace Constructor With Factory Method   | FactoryMethod       |
+Debugging:                                    |                     |
+  ☐ conditional breakpoint                    | FieldBreakpoint     |
+  ☐ evaluate expression                       |                     |
+    ☐ Java                                    |                     |
+    ☐ Groovy                                  |                     |
+  ☐ breakpoint only once                      |                     | Ctrl + F8
+  ☐ smart step into                           | SmartStepInto       | Shift + F7
+  ☐ implicit breakpoints                      | FieldBreakpoint     | Ctrl + Shift + F8
+    ☐ log message without suspend             |                     |
+  ☐ field breakpoint                          |                     |
+  ☐ analyze stacktrace                        | stacktrace.txt      |
+  ☐ compare with clipboard                    | clipboard.txt       |
 Utils:
   ☐ productivity guide
   ☐ scratch file
