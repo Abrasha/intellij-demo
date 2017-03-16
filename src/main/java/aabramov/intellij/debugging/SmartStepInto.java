@@ -13,7 +13,7 @@ public class SmartStepInto {
     }
     
     private static PrintStream getPrintStream() {
-        return null;
+        return System.out;
     }
     
     private static void printMessage(PrintStream printStream, String message) {
