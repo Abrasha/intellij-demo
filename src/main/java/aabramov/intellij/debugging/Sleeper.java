@@ -1,8 +1,5 @@
 package aabramov.intellij.debugging;
 
-/**
- * @author Andrii Abramov on 3/16/17.
- */
 public class Sleeper {
     public static final int SLEEP_TIME = 1000;
     
