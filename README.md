@@ -11,4 +11,4 @@ Covered functionality:
  - Refactoring
  - Debugging
 
-Agenda of presentation: [jetbrains.todo](README.md)
+Agenda of presentation: [jetbrains.todo](jetbrains.todo)
