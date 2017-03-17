@@ -1,7 +1,8 @@
 package aabramov.intellij.refactoring;
 
 class Entity {
-    
+
+    // gangnam style, youtube?
     // migrate to Long?
     private int id;
     private String name;
@@ -25,5 +26,11 @@ class Entity {
 }
 
 public class TypeMigration {
-    // Stub
+
+    public static void main(String[] args) {
+        Entity entity = new Entity();
+        int id = entity.getId();
+        System.out.println("id = " + id);
+    }
+
 }

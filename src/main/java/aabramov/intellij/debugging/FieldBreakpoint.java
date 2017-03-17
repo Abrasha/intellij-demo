@@ -2,7 +2,7 @@ package aabramov.intellij.debugging;
 
 class Ticker {
     
-    int iteration = 0;
+    private int iteration = 0;
     
     // 1. Conditional iteration == 322
     // 2. Log without suspend

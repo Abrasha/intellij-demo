@@ -16,13 +16,13 @@ Completion:
    ☐ smart completion                         | SmartCompletion     | Ctrl + Shift + Space
    ☐ live templates                           |                     | Ctrl + J
      ☐ sout[vmp]                              |                     |
-     ☐ prsfi                                  |                     |
+     ☐ prsfi                                  | PrivateStaticField  |
      ☐ current class - generate logger        |                     |
    ☐ postfix completion                       |                     | Ctrl + J
    ☐ static functions (ClassName.function)    | stackoverflow.com   |
    ☐ paste java code into project view        | pasting             |
    ☐ enums namespace (Smart completion)       | GenderPrinter       |
-Navigation:                                   |                     |
+Navigation:
   ☐ current scope                             |                     | Ctrl + E
   ☐ current edited scope                      |                     | Ctrl + Shift + E
   ☐ class                                     |                     | Ctrl + N
@@ -32,14 +32,15 @@ Navigation:                                   |                     |
     ☐ method                                  |                     | ClaWiTooM#mouse
   ☐ local history of files                    |                     |
   ☐ expand selection                          | selection.xml       |
+  ☐ mar directory                             |                     |
   ☐ duplicate [ selection  line ]             |                     | Ctrl + D
-Search:                                       |                     |
+Search:
   ☐ find                                      |                     | Ctrl + F
   ☐ find in path                              |                     | Ctrl + Shift + F
   ☐ code pattern                              |                     |
     ☐ empty catch                             | EmptyCatchBlocks    |
     ☐ printStackTrace                         | StackTraceCatchBlock|
-Generate code:                                |                     |
+Generate code:
   ☐ constructor                               | Person              | Ctrl + G
   ☐ [toString hashCode equals]                |                     |
   ☐ [getter setter] (java ♕ceremony♕)         |                     |
@@ -48,13 +49,13 @@ Generate code:                                |                     |
   ☐ implement interface                       | ImplementMe         |
   ☐ create subclass                           | Parent              |
   ☐ [override, implement]                     | ParentImpl          |
-Language injection:                           |                     |
+Language injection:
   ☐ test regex                                | RegexExample        |
   ☐ inject                                    |                     |
     ☐ json                                    | JsonInjection       |
     ☐ xml                                     | XmlInjection        |
   ☐ edit fragment                             |                     |
-Refactoring:                                  |                     |
+Refactoring:
   ☐ rename [variable, method, class, file]    |                     | Shift + F6
   ☐ type migration                            | TypeMigration       |
   ☐ extract                                   |                     |
@@ -62,7 +63,7 @@ Refactoring:                                  |                     |
     ☐ method                                  |                     |
   ☐ extract to interface (pull members up)    | ParentImpl          |
   ☐ replace Constructor With Factory Method   | FactoryMethod       |
-Debugging:                                    |                     |
+Debugging:
   ☐ conditional breakpoint                    | FieldBreakpoint     |
   ☐ evaluate expression                       |                     |
     ☐ Java                                    |                     |

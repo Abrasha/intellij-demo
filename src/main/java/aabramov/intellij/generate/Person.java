@@ -7,7 +7,5 @@ public class Person {
     String name;
     String age;
     Gender gender;
-    
-    
-    
+
 }

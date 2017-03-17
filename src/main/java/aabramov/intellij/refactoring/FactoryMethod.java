@@ -1,6 +1,7 @@
 package aabramov.intellij.refactoring;
 
 class BigClass {
+
     String name;
     Integer age;
     

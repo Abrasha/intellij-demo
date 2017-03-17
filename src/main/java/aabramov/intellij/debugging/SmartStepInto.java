@@ -28,8 +28,4 @@ public class SmartStepInto {
         return LocalDateTime.now();
     }
     
-    private static void printSomething() {
-        System.out.println("debug information...");
-    }
-    
 }
