@@ -68,7 +68,8 @@ Debugging:
   ☐ evaluate expression                       |                     |
     ☐ Java                                    |                     |
     ☐ Groovy                                  |                     |
-  ☐ breakpoint only once                      |                     | Ctrl + F8
+  ☐ breakpoint only once                      |                     |
+  ☐ run to cursor                             |                     | Ctrl + F8
   ☐ smart step into                           | SmartStepInto       | Shift + F7
   ☐ implicit breakpoints                      | FieldBreakpoint     | Ctrl + Shift + F8
     ☐ log message without suspend             |                     |
